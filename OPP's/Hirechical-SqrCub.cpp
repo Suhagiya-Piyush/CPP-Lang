@@ -12,13 +12,13 @@ class Base{
 class Square : public Base{
     public:
     void GetSqr(){
-        cout<<n<<" Square is : "<<n*n<<endl
+        cout<<n<<" Square is : "<<n*n<<endl;
     }
 };
 class Cube : public Base{
     public:
     void GetCube(){
-        cout<<n<<" Cube is : "<<n*n*n<<endl
+        cout<<n<<" Cube is : "<<n*n*n<<endl;
     }
 };
 int main(){
