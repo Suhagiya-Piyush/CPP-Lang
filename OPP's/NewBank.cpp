@@ -11,9 +11,9 @@ class Saving{
     int Deposite(){                         //To Deposite
         cout<<"Enter Amount : ";
         cin>>depo;
-        if(depo>20000){
+        if(depo>49999){
             cout<<"You are Not Eligible fot this Amount..."<<endl;
-            cout<<"Enter Belowe 20000..."<<endl;
+            cout<<"Enter Belowe 50000..."<<endl;
         }else{
             balance = balance + depo;
         }
@@ -21,9 +21,9 @@ class Saving{
     int Withdrawal(){                        //To Withdrowl
         cout<<"Enter Amount : ";
         cin>>with;
-        if(with>20000){
+        if(with>49999){
             cout<<"You are Not Eligible fot this Amount..."<<endl;
-            cout<<"Enter Belowe 20000..."<<endl;
+            cout<<"Enter Belowe 50000..."<<endl;
         }else{
             balance = balance - with;
         }
