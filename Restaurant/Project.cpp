@@ -29,7 +29,6 @@ class Restaurant{
         cout<<"\t2. Monster Garlic Bread\t\t\t\t335/-"<<endl;
         cout<<"\t3. Monster Cheese Bread\t\t\t\t375/-"<<endl;
         cout<<"\t4. Chilly Garlic Mushroom\t\t\t480/-"<<endl<<endl;
-        cout<<"\t\tPress 0 if You Complet Order"<<endl;
         cout<<"\t\tPress 9 if You Back to Menu"<<endl<<endl;
 
         cout<<"Your Order : ";
@@ -63,8 +62,6 @@ class Restaurant{
                 items[3] = "Chilly Garlic Mushroom";
                 bill = bill+(n*480);
                 break;
-            case 0:
-                break;
             case 9:
                 bill=bill;
                 break;
@@ -81,7 +78,6 @@ class Restaurant{
         cout<<"\t2. Manchow Soup\t\t\t\t\t355/-"<<endl;
         cout<<"\t3. Creamy Corn Soup\t\t\t\t375/-"<<endl;
         cout<<"\t4. Thai Coconut Lime Soup\t\t\t420/-"<<endl<<endl;
-        cout<<"\t\tPress 0 if You Complet Order"<<endl;
         cout<<"\t\tPress 9 if You Back to Menu"<<endl<<endl;
         
         cout<<"Your Order : ";
@@ -115,8 +111,6 @@ class Restaurant{
                 items[7] = "Thai Coconut Lime Soup";
                 bill = bill+(n*420);
                 break;
-            case 0:
-                break;
             case 9:
                 bill=bill;
                 break;
@@ -133,7 +127,6 @@ class Restaurant{
         cout<<"\t2. Aglo Olio\t\t\t\t\t675/-"<<endl;
         cout<<"\t3. Quatro Formaggio\t\t\t\t685/-"<<endl;
         cout<<"\t4. Pesto Pepper\t\t\t\t\t690/-"<<endl<<endl;
-        cout<<"\t\tPress 0 if You Complet Order"<<endl;
         cout<<"\t\tPress 9 if You Back to Menu"<<endl<<endl;
 
         cout<<"Your Order : ";
@@ -167,8 +160,6 @@ class Restaurant{
                 items[11] = "Pesto Pepper";
                 bill = bill+(n*690);
                 break;
-            case 0:
-                break;
             case 9:
                 bill=bill;
                 break;
@@ -189,7 +180,6 @@ class Restaurant{
         cout<<"\t6. Four Seasons\t\t\t\t\t1400/-"<<endl;
         cout<<"\t7. Indienne\t\t\t\t\t1500/-"<<endl;
         cout<<"\t8. Oriental\t\t\t\t\t1600/-"<<endl<<endl;
-        cout<<"\t\tPress 0 if You Complet Order"<<endl;
         cout<<"\t\tPress 9 if You Back to Menu"<<endl<<endl;
 
         cout<<"Your Order : ";
@@ -250,8 +240,6 @@ class Restaurant{
                 a[19]+=n;
                 items[19] = "Oriental";
                 bill = bill+(n*1600);
-                break;
-            case 0:
                 break;
             case 9:
                 bill=bill;
@@ -336,7 +324,6 @@ int main(){
                 b = R.Pizza();
                 break;
             case 9:
-                x=1;
                 b = R.Cancel();
                 break;
             case 0:
